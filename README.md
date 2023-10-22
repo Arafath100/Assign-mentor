@@ -23,8 +23,17 @@ This project implements a Node.js Express API for managing mentors and students 
 
 ### Installation
 1. Clone this repository to your local machine.
-2. Install project dependencies using npm: install mongoose body-parser express dotenv
-3. 3. Create a `.env` file in the root directory and add your MongoDB connection URL
+2. Install project dependencies using npm:
+     ```bash
+     npm install body-parser express mongoose dotenv
+  
+3. Create a `.env` file in the root directory and add your MongoDB connection URL:
+      ```bash
+      DB_URL=your-mongodb-connection-url
+      
+4. Start the server:
+      ```bash
+      npm start
 
 ## Usage
 You can now use the provided API endpoints to manage mentors and students. You can also use Postman or any other API testing tool to interact with the API.
